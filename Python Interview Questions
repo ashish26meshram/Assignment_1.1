@@ -1,0 +1,89 @@
+1. What is Python?
+>> Python is a high-level, interpreted, interactive, and object-oriented scripting language. It uses English keywords frequently. Whereas, other languages use punctuation, Python has fewer syntactic constructions.
+Python is designed to be highly readable and compatible with different platforms such as Mac, Windows, Linux, Raspberry Pi, etc.
+
+2. What are the supported standard data types in Python?
+>>The supported standard data types in Python include
+Lists
+Numbers
+Strings
+Dictionaries
+Tuples
+
+3. Define a function in Python.
+>>A block of code that is executed when it is called is defined as a function. The keyword def is used to define a Python function.
+
+4. What are relational operators, assignment operators, and membership operators?
+>>The purpose of relational operators is to compare values. 
+The assignment operators in Python can help in combining all the arithmetic operators with the assignment symbol.
+Membership operators in Python with the purpose to validate the membership of a value in a sequence.
+
+5.Is Python case-sensitive?
+>>A language is case-sensitive if it distinguishes between identifiers like myname and Myname. 
+In other words, it cares about case- lowercase or uppercase. Let’s try this with Python
+
+6. What Is A Tuple In Python?
+>>A tuple is a collection type data structure in Python which is immutable.
+They are similar to sequences, just like the lists. However, There are some differences between a tuple and list; the former doesn’t allow modifications whereas the list does.
+Also, the tuples use parentheses for enclosing, but the lists have square brackets in their syntax.
+
+7. What is different between List and Tuple?
+>>Lists and Tuples store one or more objects or values in a specific order. 
+The objects stored in a list or tuple can be of any type including the nothing type defined by the None Keyword.
+The main difference between lists and a tuples is the fact that lists are mutable whereas tuples are immutable
+
+8.What are types of Operator are used in Python? 
+>>Arithmetic Operators
+Comparison Operators
+Python Assignment Operators
+Logical Operators or Bitwise Operators
+Membership Operators
+Identity Operators
+
+9.When do you choose a list over a tuple?
+>>When there is an immutable ordered list of elements we choose tuple. Because we cannot add/remove an element from the tuple. 
+On the other hand, we can add elements to a list using append () or extend() or insert(), etc., and delete elements from a list using remove() or pop().
+Simple tuples are immutable, and lists are not.
+
+10.What Is A String In Python?
+>>A string in Python is a sequence of alpha-numeric characters. They are immutable objects. It means that they don’t allow modification once they get assigned a value.
+Python provides several methods, such as join(), replace(), or split() to alter strings. 
+But none of these change the original object.
+
+11.How To Determine The Size Of Your List in Python?
+>>You can pass your list to the len() function to get the length of your list back.
+
+12.How does For loop and While loop differ in Python and when do you choose to use them?
+>For loop is generally used to iterate through the elements of various collection types such as List, Tuple, Set, and Dictionary.
+While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other 
+programming languages.
+
+13. What Does The Continue Do In Python? 
+>>The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+The continue statement is applicable for both the “while” and “for” loops.
+
+14.What Is The Difference Between Pass And Continue In Python? 
+>The continue statement makes the loop to resume from the next iteration.
+ On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+ 
+15.When Should You Use The “Break” In Python? 
+ >>Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the body of the loop.
+ The break statement in a nested loop causes the control to exit from the inner iterative block.
+ 
+16. Mention the use of the split functio0n in Python?
+ >>The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.
+ 
+17.What Is A Function In Python Programming?
+ >> A function is an object which represents a block of code and is a reusable entity. It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+18.What Is The Return Keyword Used For In Python? 
+>>The purpose of a function is to receive the inputs and return some output.
+The return is a Python statement which we can use in a function for sending a value back to its caller.
+
+19. What is *args and **kwargs?
+>>*args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+ **kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+ 
+20. What is a Counter in Python? 
+ >> The function Counter() from the module ‘collections’. It counts the number of occurrences of the elements of a container.
